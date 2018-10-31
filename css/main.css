@@ -1,0 +1,40 @@
+@import url("menu.css");
+@import url("tables.css");
+@import url("img.css");
+@import url("block.css");
+@import url("imgZoom.css");
+@import url("carusel.css");
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 17px;
+}
+
+header {
+     margin-top:20px;
+     margin-bottom:20px;
+     margin-left: 70px;
+     letter-spacing: 4px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+textarea {
+	resize: none;
+}
+
+h3{
+text-align: center;
+}
+
+

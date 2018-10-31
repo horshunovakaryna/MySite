@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link  rel="stylesheet" href="css/main.css" >
+	<title>Мой личный блог</title>
+</head>
+<body onload="initial()">
+<main class="main_page" id="main_page" onload="initial()">
+ <nav class="top_menu">
+       <ul class="menu">
+       <li><a class="item" href="lb1.html">Главная</a></li>
+       <li class="dropdown"><a class="item" href="#">Учеба</a>
+         <div class="dropdown-content">
+           <a href="learning.html" target="_self">Любимые предметы</a>
+           <a href="programming.html" target="_self">Языки программирования</a>
+           <a href="computer.html" target="_self">Время работы за компьютером</a>
+           <a id="intel" href="intelligence.html" target="_self">Что я знаю об искуственном<br> интеллекте?</a>
+         </div>
+       </li>
+      <li><a class="item" href="hobby.html" target="_self">Хобби</a></li>
+      <li><a class="item" href="future.html" target="_self">Планы на будущее</a></li>
+      <li><a class="item" href="blog.html" target="_self">Мой личный блог</a></li>
+    </ul>
+    </nav>
+	 <section class="div_text new_post div_text1">
+  <form name="Blog" onsubmit="return validateForm()">
+  <div class="topic1">
+  		<p>E-mail:</p>
+  		<!--[if lt IE 9]>
+      <input type="text" name="email"  id="mai">
+      <![endif]-->
+  		<input type="email" id="mai" name="mail" required><br>
+  </div>
+   <div class="topic">
+   	<p>Тема:</p>
+   	<input id="tem" type="text" name="tema"><br>
+   </div>
+   <div class="body">
+   	<p>Сообщение:</p>
+   	<textarea rows="5" name="sms"></textarea><br><br>
+   </div>
+   <input class="btn" type="submit" value="Отправить">
+  </form>
+  </section>
+  </main>
+  <script src ="js/sript.js"></script>
+	 
+</body>
+</html>

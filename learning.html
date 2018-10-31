@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link  rel="stylesheet" href="css/main.css" >
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body onload="initial()"> 
+<main class="main_page" id="main_page" onload="initial()">
+<nav class="top_menu">
+       <ul class="menu">
+       <li><a class="item" href="lb1.html">Главная</a></li>
+       <li class="dropdown"><a class="item" href="#">Учеба</a>
+         <div class="dropdown-content">
+           <a href="learning.html" target="_self">Любимые предметы</a>
+           <a href="programming.html" target="_self">Языки программирования</a>
+           <a href="computer.html" target="_self">Время работы за компьютером</a>
+           <a id="intel" href="intelligence.html" target="_self">Что я знаю об искуственном<br> интеллекте?</a>
+         </div>
+       </li>
+      <li><a class="item" href="hobby.html" target="_self">Хобби</a></li>
+      <li><a class="item" href="future.html" target="_self">Планы на будущее</a></li>
+      <li><a class="item" href="blog.html" target="_self">Мой личный блог</a></li>
+    </ul>
+    </nav>
+  <div class="div_text">
+  <div id="myModal" class="modal">
+      <span class="close" onclick="closes()">&times;</span>
+       <img class="modal-content" id="img01" >
+  </div>
+   <article class="div_text1">
+      <h3>Алгебра и геометрия</h3>
+      <img  src="image/subject1.jpg" alt="Математика" onclick="imgZoom(src)">
+      <p>Я люблю математику, потому что в ней все подчиняется определенным правилам, которые легко понять, и которые одинаковы абсолютно для всех. Математика имеет свои, неизменные законы, которые действуют во все времена и во всех странах. Математики могут обмениваться решениями, уравнениями и интересными примерами, даже если они не говорят на одном языке. Во всем мире принято одни и те же формулы, одни и те же знаки, и это делает людей ближе.</p>
+   </article>
+
+   <article class="div_text1">
+      <h3>История</h3>
+      <img  src="image/subject2.jpg" alt="История" onclick="imgZoom(src)"> 
+      <p>История в переводе с греческого языка означает «исследование, рассказ о прошлом». События прошлых лет могут служить хорошим материалом для создания произведений художниками, музыкантами, писателями. История даёт возможность поближе познакомиться с историческими личностями - великими людьми прошлого. Знание истории необходимо для того, чтобы лучше знать свою страну, свой народ и другие народы.</p>
+   </article>
+
+   <article class="div_text1">
+      <h3>Физика</h3>
+      <img   src="image/subject3.jpg" alt="Физика" onclick="imgZoom(src)">
+      <p>Мне очень нравится физика, потому что, все ,что нас окружает , основывается на законах физики. Катаемся ли мы на велосипеде, играем в футбол</p>
+    </article> 
+  </div>
+
+    
+      
+  <div id="carousel" class="carousel">
+    <button class="arrow prev">⇦</button>
+    <div class="gallery">
+      <ul class="images">
+        <li><img src="image/subject1.jpg" onclick="imgZoom(src)"></li>
+        <li><img src="image/subject2.jpg" onclick="imgZoom(src)"></li>
+        <li><img src="image/subject3.jpg" onclick="imgZoom(src)"></li>
+        <li><img src="image/subject4.jpg" onclick="imgZoom(src)"></li>
+        <li><img src="image/subject5.jpg" onclick="imgZoom(src)"></li>
+       </ul>
+    </div>
+    <button class="arrow next">⇨</button>
+  </div>
+  </main>
+<script src ="js/sript.js"></script>
+</body>
+</html>
